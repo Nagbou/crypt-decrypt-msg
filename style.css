@@ -1,0 +1,86 @@
+body {
+    background-image: url(Bg-01.jpg);
+    font-family: "Montserrat", sans-serif;
+}
+
+.wlcm_header {
+    padding: 7% 0 0 2%;
+    color: white;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.btns {
+    padding: 5% 0 0 3%;
+}
+
+button {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1% 2%;
+    outline: none;
+    border: none;
+}
+
+.encrypt {
+    background-color: #1A1AFF;
+    color: whitesmoke;
+    margin-right: 3%;
+}
+
+.encrypt:hover {
+    background-color: #0c0cbe;
+}
+
+.decrypt {
+    background-color: whitesmoke;
+    color: #1A1AFF;
+}
+
+.decrypt:hover {
+    background-color: rgb(216, 216, 216);
+}
+
+.msg_header {
+    color: white;
+    font-weight: bold;
+}
+
+textarea {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: larger;
+    display: block;
+    margin-bottom: 3%;
+    padding: 1% 2%;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+.row {
+    padding: 2% 2% 2% 3%;
+    width: 100%;
+}
+
+.copy {
+    background-color: green;
+    color: white;
+}
+
+.copy:hover {
+    background-color: rgb(1, 97, 1);
+}
+
+.fa-circle-left {
+    padding: 2% 0 0 2%;
+    font-size: 2rem;
+    color: white;
+}
+
+.fa-circle-left:hover{
+   color: #050563;
+   cursor: pointer;
+}
